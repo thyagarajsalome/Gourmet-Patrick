@@ -24,7 +24,7 @@
       <nav class="container">
         <div class="logo">
           <img src="./images/logo.png" alt="Logo" />
-          <h1 class="logo-text">Gourmet Food & Travel</h1>
+          <h1 class="logo-text">Gourmet <span>Food & Travel</span></h1>
         </div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
@@ -124,48 +124,7 @@
         <p class="section-subtitle">
           Explore breathtaking destinations and create unforgettable memories
         </p>
-        <div class="travel-grid">
-          <div class="travel-card">
-            <img
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              alt="Santorini"
-            />
-            <div class="travel-card-overlay">
-              <h3>Santorini, Greece</h3>
-              <p>Stunning sunsets and Mediterranean cuisine</p>
-            </div>
-          </div>
-          <div class="travel-card">
-            <img
-              src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              alt="Tokyo"
-            />
-            <div class="travel-card-overlay">
-              <h3>Tokyo, Japan</h3>
-              <p>Modern culture meets ancient traditions</p>
-            </div>
-          </div>
-          <div class="travel-card">
-            <img
-              src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              alt="Paris"
-            />
-            <div class="travel-card-overlay">
-              <h3>Paris, France</h3>
-              <p>The city of lights and culinary excellence</p>
-            </div>
-          </div>
-          <div class="travel-card">
-            <img
-              src="https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              alt="Bali"
-            />
-            <div class="travel-card-overlay">
-              <h3>Bali, Indonesia</h3>
-              <p>Tropical paradise with exotic flavors</p>
-            </div>
-          </div>
-        </div>
+        <div class="travel-grid" id="travelGrid"></div>
       </div>
     </section>
 
@@ -289,6 +248,7 @@
       </div>
     </footer>
     <script src="./index.js"></script>
+    <script src="travel.js" defer></script>
     <script src="./testimonials.js"></script>
   </body>
 </html>
