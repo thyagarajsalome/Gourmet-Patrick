@@ -54,13 +54,12 @@ nav {
 }
 
 .logo h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 header span {
   font-size: 1.5rem;
-  font-family: "roboto";
+
   color: rgba(255, 49, 49, 255);
 }
 
