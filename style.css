@@ -377,7 +377,11 @@ footer {
   border-top: 1px solid #555;
   color: #ccc;
 }
-
+.website {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 800;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .menu-toggle {
